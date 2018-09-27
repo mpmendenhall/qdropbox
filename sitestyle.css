@@ -1,11 +1,10 @@
 body {
-    #margin: 0px 0px 0px 140px;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 150px;
     padding: 0px;
     background-color: rgb(220,220,255);
-    #background-image: url(logo.svg);
-    #background-size: 120px 320px;
-    #background-position: 10px 10px;
+    background-image: url(logo.svg);
+    background-size: 120px 285px;
+    background-position: 10px 10px;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -13,9 +12,63 @@ body {
     font-family: serif;
 }
 
-.tblhead {
+h1 {
+    background-color: rgb(180,180,255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+thead {
     background-color: rgb(230,230,255);
     font-weight: bold;
+}
+
+.rhead {
+    background-color: rgb(230,230,255);
+    font-weight: bold;
+    text-align: right;
+}
+
+table.striped tr:nth-child(even) {
+    background-color: rgb(180,180,255);
+}
+
+td {
+    padding:0 15px 0 15px;
+}
+
+tbody.striped tr:nth-child(odd) {
+    background-color: rgb(180,180,255);
+}
+
+table.striped tr:hover {
+    background-color: rgb(255,200,255);
+}
+
+tbody.striped tr:hover {
+    background-color: rgb(255,200,255);
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.boldright {
+    font-weight: bold;
+    text-align: right;
+}
+
+.lightbg {
+    background-color: rgb(255,250,240);
+    border-radius: 10px;
+}
+
+.listbreak {
+    font-weight: bold;
+    text-align:center;
+    background-color: rgb(255,150,200);
 }
 
 .neutral {
@@ -41,3 +94,4 @@ body {
 .turnedoff {
     background-color: rgb(50,50,255);
 }
+
